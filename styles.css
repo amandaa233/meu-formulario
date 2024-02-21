@@ -4,7 +4,8 @@ body {
     margin: 0;
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    background-color: #ffffff;
+    background: rgb(226,115,150);
+    background: linear-gradient(90deg, rgba(226,115,150,1) 8%, rgba(234,242,215,1) 88%);
     color: #2d2d2d; 
     align-items: center;
     justify-content: center;
