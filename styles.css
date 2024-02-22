@@ -28,6 +28,7 @@ body {
   header {
     text-align: center;
     margin-bottom: 40px;
+   
   }
   
   .logo {
@@ -65,7 +66,7 @@ body {
     background-color: #e2739643; 
     font-size: 14px;
     font-family: "Poppins", sans-serif;
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 2px #E27396;
     transition: border-color 0.3s ease;
   }
   
@@ -98,3 +99,79 @@ body {
   .btn:hover {
     background-color: #c9265adf; 
   }
+
+  /* Estilização da tabela */
+.container {
+  margin: 50px 20px;
+  padding: 40px 40px;
+  background-color: #EAF2D7; /* branco */
+  border-radius: 20px;
+  box-shadow: 0 0 10px #E27396;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #EAF2D7;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #E27396;
+}
+
+.container-tabela {
+  max-width: 100%;
+  min-width: 700px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid#b8184b;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #E27396;
+  color:#fff
+}
+
+tr:nth-child(odd) {
+  background-color: #eba3ba58;
+}
+
+tr:nth-child(even) {
+  background-color: #e2739650;
+}
+
+.tabela-vazia span {
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-weight: 600;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #E27396;
+}
+
+.btn-excluir {
+  padding: 5px 10px;
+  background-color: #E27396;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-excluir:hover {
+  background-color: #c9265adf;
+}
